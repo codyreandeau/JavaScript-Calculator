@@ -1,0 +1,17 @@
+#calculator {
+  margin:auto;
+  height:600px;
+  width:500px;
+  background-color:#888;
+  border-radius:20px;
+}
+
+#display {
+  position:relative;
+  margin:auto;
+  top:20px;
+  width:450px;
+  height:120px;
+  background-color:#333;
+  border-radius:20px;
+}
