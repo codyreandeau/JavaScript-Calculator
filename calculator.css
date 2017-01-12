@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 
 html{
   background-image: url(https://subtlepatterns.com/patterns/purty_wood.png);
@@ -32,9 +33,26 @@ footer{
   font-weight:bold;
 }
 
+input[type=text] {
+  position: relative;
+  border: 0px;
+  font-size: 50px;
+  border: 1px solid #d9d9d9;
+  box-shadow: inset -4px 7px 9px -3px rgba(0,0,0,0.7);
+  color: transparent;text-shadow: 0 0 0 #80ff00;
+  background-color: #444;
+  font-weight: bold;
+  height: 100px;
+  width: 322px;
+  margin: 20px 20px 0px 13px;
+  padding: 0px 5px 0px 5px;
+  border-radius: 15px;
+  font-family: 'Orbitron', sans-serif;
+}
+
 #container{
   position: relative;
-  top:50%;
+  top: 50%;
   transform: translateY(-50%);
 }
 
@@ -48,30 +66,18 @@ footer{
   box-shadow: 10px 11px 35px 2px rgba(0, 0, 0, 0.6), inset -2px -5px 12px 0px #333;
 }
 
-#display {
-  position: relative;
-  margin: auto;
-  top: 18px;
-  width: 320px;
-  height: 100px;
-  background-color: #444;
-  border-radius: 15px;
-  border: 1px solid #d9d9d9;
-  box-shadow: inset -4px 7px 9px -3px rgba(0,0,0,0.7);
-}
-
 #buttons {
   position: absolute;
   display: inline-block;
   width: 340px;
   height: auto;
-  margin-top: 40px;
+  margin-top: 5px;
   margin-left: 22px;
 }
 
 #equal{
   position: relative;
-  top: 222px;
+  top: 186px;
   left: 12px;
   height: 111px;
 }
@@ -84,7 +90,7 @@ footer{
   position: relative;
   display: inline-block;
   width: 240px;
-  top: 254px;
+  top: 218px;
   left: 22px;
 }
 
@@ -99,4 +105,12 @@ footer{
 button:hover, a:hover{
   cursor: pointer;
   opacity: 0.9;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input:focus {
+  outline: 0;
 }
